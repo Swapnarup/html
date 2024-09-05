@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: Link to a CSS file for styling -->
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Personal Blog</h1>
+        <p>Sharing thoughts, experiences, and insights on life and tech.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Blog Section -->
+        <section id="blog">
+            <article>
+                <h2>My Journey into Web Development</h2>
+                <p><strong>Date:</strong> September 1, 2024</p>
+                <p><strong>Author:</strong> John Doe</p>
+                <p>Web development has always fascinated me. From the early days of HTML to the dynamic web applications we see today, my journey has been nothing short of exciting. In this post, I’ll share some of the key milestones in my learning journey.</p>
+                <img src="web-development.jpg" alt="Web Development" style="width:100%;">
+            </article>
+
+            <article>
+                <h2>Understanding Responsive Design</h2>
+                <p><strong>Date:</strong> August 25, 2024</p>
+                <p><strong>Author:</strong> John Doe</p>
+                <p>In the age of smartphones and tablets, designing a website that looks good on all devices is crucial. Responsive design is the key, and in this post, I'll dive into the best practices and tools for creating responsive websites.</p>
+                <video controls width="100%">
+                    <source src="responsive-design.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </article>
+
+            <article>
+                <h2>Web Development Learning Resources</h2>
+                <p><strong>Date:</strong> August 18, 2024</p>
+                <p><strong>Author:</strong> John Doe</p>
+                <p>There are countless resources available for learning web development. In this post, I’ve compiled a table of some of the best books, websites, and courses that have helped me along the way.</p>
+                
+                <table border="1" cellpadding="10" cellspacing="0">
+                    <tr>
+                        <th>Resource</th>
+                        <th>Type</th>
+                        <th>Link</th>
+                    </tr>
+                    <tr>
+                        <td>HTML & CSS: Design and Build Websites</td>
+                        <td>Book</td>
+                        <td><a href="https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189">Buy on Amazon</a></td>
+                    </tr>
+                    <tr>
+                        <td>freeCodeCamp</td>
+                        <td>Website</td>
+                        <td><a href="https://www.freecodecamp.org">Visit Site</a></td>
+                    </tr>
+                    <tr>
+                        <td>The Odin Project</td>
+                        <td>Course</td>
+                        <td><a href="https://www.theodinproject.com">Enroll Now</a></td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+
+        <!-- Aside Section -->
+        <aside>
+            <section>
+                <h3>Blog Categories</h3>
+                <ul>
+                    <li><a href="#webdev">Web Development</a></li>
+                    <li><a href="#design">Design</a></li>
+                    <li><a href="#tech">Tech News</a></li>
+                    <li><a href="#life">Lifestyle</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Recent Posts</h3>
+                <ul>
+                    <li><a href="#journey">My Journey into Web Development</a></li>
+                    <li><a href="#responsive">Understanding Responsive Design</a></li>
+                    <li><a href="#resources">Web Development Learning Resources</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Subscribe to My Blog</h3>
+                <form action="subscribe.html" method="post">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </section>
+        </aside>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <p>
+            Follow me on:
+            <a href="https://twitter.com/johndoe" target="_blank">Twitter</a> |
+            <a href="https://github.com/johndoe" target="_blank">GitHub</a> |
+            <a href="mailto:johndoe@example.com">Email</a>
+        </p>
+    </footer>
+</body>
+
+</html>
