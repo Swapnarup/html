@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Page Title -->
+    <h1>Welcome to Gourmet Delights</h1>
+
+    <!-- Subheading for Menu -->
+    <h2>Our Menu</h2>
+
+    <!-- Menu Table -->
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Dish</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Margherita Pizza</td>
+            <td>A classic delight with fresh tomatoes, basil, and mozzarella.</td>
+            <td>$12.99</td>
+        </tr>
+        <tr>
+            <td>Caesar Salad</td>
+            <td>Crisp romaine lettuce with Caesar dressing, croutons, and Parmesan.</td>
+            <td>$9.99</td>
+        </tr>
+        <tr>
+            <td>Grilled Salmon</td>
+            <td>Perfectly grilled salmon served with a side of asparagus and lemon.</td>
+            <td>$19.99</td>
+        </tr>
+    </table>
+
+    <!-- Special Offers List -->
+    <h2>Today's Specials</h2>
+    <ul>
+        <li>Buy one, get one free on all appetizers.</li>
+        <li>20% off on all desserts.</li>
+        <li>Free soft drink with any main course.</li>
+    </ul>
+
+    <!-- Additional Information with Block and Inline Elements -->
+    <p>
+        Our restaurant offers a wide variety of gourmet dishes that are <span style="color: red; font-weight: bold;">crafted with love</span> and the finest ingredients. Come and enjoy an unforgettable dining experience with us!
+    </p>
+
+</body>
+</html>
